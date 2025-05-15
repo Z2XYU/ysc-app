@@ -1,0 +1,201 @@
+{
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {}
+    },
+    {
+      "path": "pages/act/act",
+      "style": {}
+    },
+    {
+      "path": "pages/rec/rec",
+      "style": {}
+    },
+    {
+      "path": "pages/terminal/terminal",
+      "style": {}
+    },
+    {
+      "path": "pages/my/my",
+      "style": {}
+    }
+  ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path" : "setting/setting",
+      "style" : 
+      {
+        "navigationBarTitleText" : "设置"
+      }
+    },
+    {
+      "path" : "hanfu_detail/hanfu_detail",
+      "style" : 
+      {
+        "navigationBarTitleText" : "内容详情"
+      }
+    },
+    {
+      "path" : "user_detail/user_detail",
+      "style" : 
+      {
+        "navigationBarTitleText" : "个人信息"
+      }
+    },
+    {
+      "path" : "search/search",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "hanfu_list/hanfu_list",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "photograph/photograph",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "act_detail/act_detail",
+      "style" : 
+      {
+        "navigationBarTitleText" : "活动详情"
+      }
+    },
+    {
+      "path" : "delivery/delivery",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "site_hanfu_list/site_hanfu_list",
+      "style" : 
+      {
+        "navigationBarTitleText" : "云裳柜"
+      }
+    },
+    {
+      "path" : "online_fitting/online_fitting",
+      "style" : 
+      {
+        "navigationBarTitleText" : "试衣效果"
+      }
+    },
+    {
+      "path" : "M&TI/M&TI",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "Scene_limitation/Scene_limitation",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "photographer_detaill/photographer_detaill",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "shop_detail/shop_detail",
+      "style" : 
+      {
+        "navigationBarTitleText" : "店铺详情"
+      }
+    },
+    {
+      "path" : "web_view /web_view ",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "jingdian_tuijian/jingdian_tuijian",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "kefu/kefu",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    },
+    {
+      "path" : "toupiao_huodong/toupiao_huodong",
+      "style" : 
+      {
+        "navigationBarTitleText" : ""
+      }
+    }
+    ]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "云裳城",
+    "navigationBarBackgroundColor": "#a73101",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tabBar/home-1.png",
+        "selectedIconPath": "static/tabBar/home-2.png"
+      },
+      {
+        "pagePath": "pages/act/act",
+        "text": "活动",
+        "iconPath": "static/tabBar/act-1.png",
+        "selectedIconPath": "static/tabBar/act-2.png"
+      },
+      {
+        "pagePath": "pages/rec/rec",
+        "iconPath": "static/tabBar/rec-1.png",
+        "selectedIconPath": "static/tabBar/rec-2.png"
+      },
+      {
+        "pagePath": "pages/terminal/terminal",
+        "text": "云裳柜",
+        "iconPath": "static/tabBar/ter-1.png",
+        "selectedIconPath": "/static/tabBar/ter-2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabBar/my-1.png",
+        "selectedIconPath": "static/tabBar/my-2.png"
+      }
+    ]
+  }
+
+}
