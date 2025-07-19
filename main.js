@@ -11,9 +11,10 @@ import {
 uni.$http = $http
 //请求根路径
 // $http.baseUrl = 'http://localhost:8889'
-// $http.baseUrl='http://129.211.26.112:8889'
+$http.baseUrl='http://129.211.26.112:8889'
 
-$http.baseUrl='https://www.yunsc.asia'
+
+// $http.baseUrl='https://www.yunsc.asia'
 
 //请求拦截器s
 $http.beforeRequest = function(options) {
